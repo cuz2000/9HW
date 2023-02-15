@@ -8,14 +8,14 @@ Console.Write(1);
 
 void PrintNumber(int n, int count)
 {
-  if (count > n) return;
-  PrintNumber(n, count + 1);
-  Console.Write(count + ", ");
+    if (count > n) return;
+    PrintNumber(n, count + 1);
+    Console.Write(count + ", ");
 }
 
-int InputNumbers(string input) 
+int InputNumbers(string input)
 {
-  Console.Write(input);
-  int output = Convert.ToInt32(Console.ReadLine());
-  return output;
+    Console.Write(input);
+    int output = Convert.ToInt32(Console.ReadLine());
+    return output;
 }
